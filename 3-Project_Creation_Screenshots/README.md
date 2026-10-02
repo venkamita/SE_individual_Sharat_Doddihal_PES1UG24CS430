@@ -27,15 +27,20 @@ Place the following screenshots in this folder:
 | `github_commits.png` | Screenshot of commit history |
 
 ### Jira Screenshots
-Place the following screenshots in this folder:
+Here are the uploaded Jira screenshots from the Lab 2 assignment:
 
-| File Name | What to Capture |
+| File Name | Description |
 |---|---|
-| `jira_project_creation.png` | Screenshot of Jira project creation screen |
-| `jira_board_overview.png` | Screenshot of the Jira Kanban/Scrum board |
-| `jira_backlog.png` | Screenshot of the product backlog with user stories |
-| `jira_sprint_planning.png` | Screenshot of sprint planning (if applicable) |
-| `jira_issues.png` | Screenshot of issues/tickets created in Jira |
+| [`jira_backlog.png`](./jira_backlog.png) | Screenshot of the product backlog showing 4 Epics and 10 User Stories |
+| [`jira_burndown_chart_1.png`](./jira_burndown_chart_1.png) | First Burndown Chart screenshot |
+| [`jira_burndown_chart_2.png`](./jira_burndown_chart_2.png) | Second Burndown Chart screenshot |
+
+#### Backlog Preview:
+![Jira Backlog](./jira_backlog.png)
+
+#### Burndown Charts:
+![Burndown Chart 1](./jira_burndown_chart_1.png)
+![Burndown Chart 2](./jira_burndown_chart_2.png)
 
 ---
 
