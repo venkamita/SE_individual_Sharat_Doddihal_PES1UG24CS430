@@ -1,68 +1,56 @@
-# Functional Requirements (FR)
+# Functional Requirements (FR) & User Stories
 ## Project: Automated Rubric Assignment Evaluator
 **Student:** Sharat Doddihal | **SRN:** PES1UG24CS430
 
 ---
 
 ## 1. Introduction
-
-This document outlines the **Functional Requirements** for the Automated Rubric Assignment Evaluator system. The system automates student project submission evaluation using predefined rubrics and supports peer reviewer assignment.
+This document outlines the **Functional Requirements** and **User Stories** for the Automated Rubric Assignment Evaluator system, strictly aligned with the Agile Sprint Planning (Lab 2).
 
 ---
 
 ## 2. Actors
-
 | Actor | Description |
 |---|---|
-| **Student** | Submits project files for evaluation |
-| **Faculty Evaluator** | Reviews and adjusts AI-generated scores |
-| **System (Automated)** | Runs test cases, scores submissions, assigns peers |
+| **Student** | Submits project files and views final results |
+| **Faculty Evaluator** | Reviews automated scores and adjusts them if necessary |
+| **System (Automated)** | Validates files, runs test cases, scores submissions, assigns peers |
 
 ---
 
-## 3. Functional Requirements
+## 3. Epics and User Stories (Functional Requirements)
 
-| FR ID | Requirement Name | Description | Priority |
+The functional requirements are mapped directly to the Agile backlog Epics and User Stories tracked in Jira.
+
+### Epic 1: Submission Management
+| FR ID | User Story ID | Requirement / User Story | Priority |
 |---|---|---|---|
-| FR-01 | User Registration & Login | Students and faculty must be able to register and log in securely | High |
-| FR-02 | Project Submission | Student must be able to upload project files (zip, pdf, etc.) to the system | High |
-| FR-03 | File Validation | System must validate uploaded files for format, size, and completeness | High |
-| FR-04 | Automated Test Case Execution | System must automatically run predefined test cases against submitted code | High |
-| FR-05 | Rubric-Based Scoring | System must evaluate submissions against defined rubrics and generate scores | High |
-| FR-06 | Peer Reviewer Assignment | System must automatically assign peer reviewers to submissions | Medium |
-| FR-07 | Flagged Submission Review | Faculty must be able to view and manually review flagged submissions | High |
-| FR-08 | Score Adjustment by Faculty | Faculty Evaluator must be able to modify scores before finalization | High |
-| FR-09 | Score Finalization | System must finalize and lock scores after faculty approval | Medium |
-| FR-10 | Result Notification | System must notify students about their final evaluation results | Medium |
-| FR-11 | Submission History | Students must be able to view past submissions and their scores | Low |
-| FR-12 | Rubric Management | Faculty must be able to create, update, and delete rubrics | Medium |
-| FR-13 | Report Generation | System must generate evaluation reports for faculty | Low |
-| FR-14 | Dashboard | Both students and faculty must have a personalized dashboard | Medium |
+| FR-01 | **US-01** | **Submit Project:** As a Student, I want to submit my project files so that they can be evaluated. | High |
+| FR-02 | **US-02** | **Validate Submission:** As the System, I want to validate the uploaded files to ensure they meet format and size constraints before processing. | High |
+
+### Epic 2: Automated Evaluation
+| FR ID | User Story ID | Requirement / User Story | Priority |
+|---|---|---|---|
+| FR-03 | **US-03** | **Add Submission to Evaluation Queue:** As the System, I want to queue valid submissions so that they are processed systematically without overloading the server. | High |
+| FR-04 | **US-04** | **Run Test Cases:** As the System, I want to execute predefined test cases against the submitted code in a sandbox. | High |
+| FR-05 | **US-05** | **Generate Rubric Score:** As the System, I want to calculate a score based on the test case results and the predefined rubric. | High |
+
+### Epic 3: Peer Review Assignment
+| FR ID | User Story ID | Requirement / User Story | Priority |
+|---|---|---|---|
+| FR-06 | **US-06** | **Assign Peer Reviewer:** As the System, I want to automatically assign a peer reviewer to a successful submission. | Medium |
+| FR-07 | **US-07** | **Flag Failed Evaluation:** As the System, I want to flag evaluations that fail test cases or fall below a certain threshold for manual review. | High |
+
+### Epic 4: Faculty Review & Results
+| FR ID | User Story ID | Requirement / User Story | Priority |
+|---|---|---|---|
+| FR-08 | **US-08** | **Review Automated Score:** As a Faculty Evaluator, I want to review the system-generated rubric scores and flagged submissions. | High |
+| FR-09 | **US-09** | **Adjust Final Score:** As a Faculty Evaluator, I want to adjust and finalize the student's score based on my manual review. | High |
+| FR-10 | **US-10** | **View Final Result:** As a Student, I want to view my final finalized score and feedback on the dashboard. | High |
 
 ---
 
-## 4. Use Case Summary
-
-### UC-01: Submit Project
-- **Actor:** Student
-- **Main Flow:** Student logs in → uploads project files → system validates → confirms submission
-
-### UC-02: Assign Peer Reviewer
-- **Actor:** System
-- **Main Flow:** Submission received → system selects eligible peer reviewer → notifies reviewer
-
-### UC-03: Evaluate Submission
-- **Actor:** System, Faculty Evaluator
-- **Main Flow:** System runs test cases → generates rubric scores → Faculty reviews → adjusts if needed → finalizes
-
-### UC-04: View Results
-- **Actor:** Student
-- **Main Flow:** Student logs in → navigates to results → views score and feedback
-
----
-
-## 5. Activity Flow Reference
-
+## 4. Activity Flow Reference
 See [`fr_functional_activity_flow.png`](../fr_functional_activity_flow.png) (in root) for the complete functional activity flow diagram.
 
 ![Functional Activity Flow](../fr_functional_activity_flow.png)

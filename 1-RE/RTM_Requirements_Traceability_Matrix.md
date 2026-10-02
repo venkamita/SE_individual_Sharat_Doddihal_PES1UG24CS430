@@ -5,29 +5,24 @@
 ---
 
 ## 1. Introduction
-
-The **Requirements Traceability Matrix (RTM)** maps each requirement to its corresponding design element, implementation module, and test case. This ensures full coverage and helps track implementation progress.
+The **Requirements Traceability Matrix (RTM)** maps each User Story (FR) to its corresponding Epic, module, and test case to ensure full coverage.
 
 ---
 
-## 2. RTM Table — Functional Requirements
+## 2. RTM Table — Functional Requirements (User Stories)
 
-| Req ID | Requirement Description | Use Case | Module / Component | Test Case ID | Status |
+| Epic | User Story ID | User Story Description | Module / Component | Test Case ID | Status |
 |---|---|---|---|---|---|
-| FR-01 | User Registration & Login | UC-00 | Auth Service | TC-01 | ✅ Defined |
-| FR-02 | Project Submission | UC-01 | Submission Module | TC-02 | ✅ Defined |
-| FR-03 | File Validation | UC-01 | File Validator | TC-03 | ✅ Defined |
-| FR-04 | Automated Test Case Execution | UC-03 | Test Runner Engine | TC-04 | ✅ Defined |
-| FR-05 | Rubric-Based Scoring | UC-03 | Scoring Engine | TC-05 | ✅ Defined |
-| FR-06 | Peer Reviewer Assignment | UC-02 | Reviewer Assigner | TC-06 | ✅ Defined |
-| FR-07 | Flagged Submission Review | UC-03 | Faculty Dashboard | TC-07 | ✅ Defined |
-| FR-08 | Score Adjustment by Faculty | UC-03 | Score Manager | TC-08 | ✅ Defined |
-| FR-09 | Score Finalization | UC-03 | Score Manager | TC-09 | ✅ Defined |
-| FR-10 | Result Notification | UC-04 | Notification Service | TC-10 | ✅ Defined |
-| FR-11 | Submission History | UC-04 | Student Dashboard | TC-11 | ✅ Defined |
-| FR-12 | Rubric Management | — | Rubric Manager | TC-12 | ✅ Defined |
-| FR-13 | Report Generation | — | Report Service | TC-13 | ✅ Defined |
-| FR-14 | Dashboard | — | UI Layer | TC-14 | ✅ Defined |
+| **Submission Management** | US-01 | Submit Project | Student Portal UI | TC-01 | ✅ Defined |
+| **Submission Management** | US-02 | Validate Submission | Submission Manager | TC-02 | ✅ Defined |
+| **Automated Evaluation** | US-03 | Add Submission to Evaluation Queue | Job Queue (Redis) | TC-03 | ✅ Defined |
+| **Automated Evaluation** | US-04 | Run Test Cases | Evaluation Engine | TC-04 | ✅ Defined |
+| **Automated Evaluation** | US-05 | Generate Rubric Score | Evaluation Engine | TC-05 | ✅ Defined |
+| **Peer Review Assignment**| US-06 | Assign Peer Reviewer | Reviewer Assigner | TC-06 | ✅ Defined |
+| **Peer Review Assignment**| US-07 | Flag Failed Evaluation | Evaluation Engine | TC-07 | ✅ Defined |
+| **Faculty Review & Results**| US-08 | Review Automated Score | Faculty Dashboard | TC-08 | ✅ Defined |
+| **Faculty Review & Results**| US-09 | Adjust Final Score | Faculty Dashboard | TC-09 | ✅ Defined |
+| **Faculty Review & Results**| US-10 | View Final Result | Student Portal UI | TC-10 | ✅ Defined |
 
 ---
 
@@ -56,21 +51,10 @@ The **Requirements Traceability Matrix (RTM)** maps each requirement to its corr
 
 ---
 
-## 4. Use Case to Requirement Mapping
-
-| Use Case | Functional Requirements Covered |
-|---|---|
-| UC-01: Submit Project | FR-02, FR-03 |
-| UC-02: Assign Peer Reviewer | FR-06 |
-| UC-03: Evaluate Submission | FR-04, FR-05, FR-07, FR-08, FR-09 |
-| UC-04: View Results | FR-10, FR-11 |
-
----
-
-## 5. Coverage Summary
+## 4. Coverage Summary
 
 | Type | Total Requirements | Traced | Coverage |
 |---|---|---|---|
-| Functional | 14 | 14 | **100%** |
+| User Stories (Functional) | 10 | 10 | **100%** |
 | Non-Functional | 18 | 18 | **100%** |
-| **Total** | **32** | **32** | **100%** |
+| **Total** | **28** | **28** | **100%** |
