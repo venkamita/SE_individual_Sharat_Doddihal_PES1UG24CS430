@@ -8,6 +8,9 @@
 
 This folder contains screenshots documenting the initial project creation and setup in **GitHub** and **Jira** project management tool.
 
+### 📄 Lab 2 Report
+* [`Lab2_Agile_Sprint_Report.md`](./Lab2_Agile_Sprint_Report.md) - Contains the sprint planning Q&A and Jira experience details from the Lab 2 assignment.
+
 ---
 
 ## 📸 Screenshots to Add
