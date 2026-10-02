@@ -122,19 +122,11 @@ def compute_rubric_score(test_results: dict, rubric: dict) -> dict:
 
 ## Instructions for Adding Screenshots
 
-> **For the student:** Add screenshots of GitHub Copilot in action to this folder.
+## Copilot Screenshots in Action
 
-**How to add screenshots:**
-1. While coding with VS Code + GitHub Copilot extension, take screenshots of:
-   - Copilot suggestions appearing inline in the editor
-   - Copilot Chat window with code generation prompts
-   - Before/after code comparisons
-2. Save them as PNG files (e.g., `copilot_screenshot_01.png`)
-3. Place them in this folder (`5-GitHub_Copilot_Code/`)
-4. Update this README with image embeds:
-   ```markdown
-   ![Copilot Suggestion Screenshot](./copilot_screenshot_01.png)
-   ```
+Here is a screenshot showing GitHub Copilot providing inline suggestions while writing the file upload handler module:
+
+![Copilot Suggestion Screenshot](./copilot_screenshot_01.png)
 
 ---
 
