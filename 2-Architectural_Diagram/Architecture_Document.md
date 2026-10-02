@@ -105,5 +105,11 @@ Internet
 
 | File | Description |
 |---|---|
-| `Architecture_Document.md` | This document — full architecture description |
-| *(Add diagram images here, e.g., architecture.png)* | Visual diagrams exported from draw.io or similar tools |
+| [`Architecture_Document.md`](./Architecture_Document.md) | This document — full architecture description |
+| [`Lab3_Component_Diagram.png`](./Lab3_Component_Diagram.png) | UML Component Diagram (5 components, 4 interfaces, ball/socket notation) |
+| [`Lab3_Architecture_Justification.md`](./Lab3_Architecture_Justification.md) | Lab 3 justification: Microservices architecture choice, 2 reasons, security & performance |
+| [`Lab3_Component_Diagram_Instructions.md`](./Lab3_Component_Diagram_Instructions.md) | PlantUML source code used to generate the component diagram |
+
+## Component Diagram Preview
+
+![Lab 3 UML Component Diagram](./Lab3_Component_Diagram.png)

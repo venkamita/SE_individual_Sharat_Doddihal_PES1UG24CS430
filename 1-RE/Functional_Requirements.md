@@ -63,4 +63,6 @@ This document outlines the **Functional Requirements** for the Automated Rubric 
 
 ## 5. Activity Flow Reference
 
-See `fr_functional_activity_flow.png` (in root) for the complete functional activity flow diagram.
+See [`fr_functional_activity_flow.png`](../fr_functional_activity_flow.png) (in root) for the complete functional activity flow diagram.
+
+![Functional Activity Flow](../fr_functional_activity_flow.png)

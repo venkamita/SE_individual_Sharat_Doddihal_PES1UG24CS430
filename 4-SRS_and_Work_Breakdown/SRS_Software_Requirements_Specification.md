@@ -106,7 +106,9 @@ Summary:
 **Exception Flow (E1) – Submission file corrupted:**
 - At step 2: File validation fails → submission rejected → student notified to resubmit
 
-*(See `uc03_exception_flow.png` in root for visual exception flow diagram)*
+*(See [`uc03_exception_flow.png`](../uc03_exception_flow.png) in root for visual exception flow diagram)*
+
+![UC-03 Exception Flow](../uc03_exception_flow.png)
 
 ---
 
@@ -120,6 +122,7 @@ Summary:
 
 ## 6. Appendices
 
-- **Appendix A:** Activity Flow Diagram → `fr_functional_activity_flow.png`
-- **Appendix B:** Exception Flow Diagram → `uc03_exception_flow.png`
-- **Appendix C:** RTM → `1-RE/RTM_Requirements_Traceability_Matrix.md`
+- **Appendix A:** Activity Flow Diagram → [`fr_functional_activity_flow.png`](../fr_functional_activity_flow.png)
+- **Appendix B:** Exception Flow Diagram → [`uc03_exception_flow.png`](../uc03_exception_flow.png)
+- **Appendix C:** RTM → [`RTM_Requirements_Traceability_Matrix.md`](../1-RE/RTM_Requirements_Traceability_Matrix.md)
+- **Appendix D:** UML Component Diagram → [`Lab3_Component_Diagram.png`](../2-Architectural_Diagram/Lab3_Component_Diagram.png)
