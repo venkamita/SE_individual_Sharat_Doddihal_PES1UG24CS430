@@ -3,7 +3,6 @@
 **Name:** Sharat Doddihal  
 **SRN:** PES1UG24CS430  
 **Course:** Software Engineering Lab  
-**Repository:** [venkamita/SE_individual_Sharat_Doddihal_PES1UG24CS430](https://github.com/venkamita/SE_individual_Sharat_Doddihal_PES1UG24CS430)
 
 ---
 
