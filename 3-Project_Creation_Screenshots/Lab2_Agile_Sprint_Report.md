@@ -18,4 +18,4 @@ The Burndown Chart showed the amount of story points remaining during the sprint
 The main challenge was getting familiar with Jira's interface, especially finding the Scrum backlog, creating Epics and User Stories, and adding stories to a sprint. I initially created a project using the wrong project setup, but then created the correct Scrum-based project and configured the required work types. After that, I created the Epics and User Stories, assigned priorities and story points, and organized them into two sprints.
 
 ---
-> **Note:** Screenshots of the Burndown chart, Scrum backlog, Epics, and User Stories corresponding to this report should be added to this folder.
+> **Screenshots:** The Scrum backlog and burndown chart captures are listed in the [screenshot index](./README.md#jira-screenshots).

@@ -6,28 +6,14 @@
 
 ## Overview
 
-This folder contains screenshots documenting the initial project creation and setup in **GitHub** and **Jira** project management tool.
+This folder contains Jira backlog and burndown chart screenshots for the Lab 2 sprint report.
 
 ### 📄 Lab 2 Report
 * [`Lab2_Agile_Sprint_Report.md`](./Lab2_Agile_Sprint_Report.md) - Contains the sprint planning Q&A and Jira experience details from the Lab 2 assignment.
 
 ---
 
-## 📸 Screenshots to Add
-
-### GitHub Screenshots
-Place the following screenshots in this folder:
-
-| File Name | What to Capture |
-|---|---|
-| `github_repo_creation.png` | Screenshot of creating the GitHub repository |
-| `github_repo_overview.png` | Screenshot of the repository main page |
-| `github_issues.png` | Screenshot of GitHub Issues (if used for task tracking) |
-| `github_project_board.png` | Screenshot of GitHub Projects board (if used) |
-| `github_commits.png` | Screenshot of commit history |
-
-### Jira Screenshots
-Here are the uploaded Jira screenshots from the Lab 2 assignment:
+## Jira Screenshots
 
 | File Name | Description |
 |---|---|
@@ -42,18 +28,5 @@ Here are the uploaded Jira screenshots from the Lab 2 assignment:
 ![Burndown Chart 1](./jira_burndown_chart_1.png)
 ![Burndown Chart 2](./jira_burndown_chart_2.png)
 
----
+These captures document the Jira sprint backlog and burndown charts referenced in the report.
 
-## How to Add Screenshots
-
-1. Take screenshots using the tool of your choice:
-   - Windows: `Win + Shift + S` (Snipping Tool) or `Print Screen`
-   - Or use the Jira/GitHub "Share" or export feature
-2. Save files as `.png` format
-3. Name them descriptively as listed above
-4. Upload them to this folder on GitHub:
-   - Go to the folder in GitHub → **Add file** → **Upload files**
-
----
-
-> ⚠️ **Note:** This folder will be completed manually by the student after setting up the Jira project.

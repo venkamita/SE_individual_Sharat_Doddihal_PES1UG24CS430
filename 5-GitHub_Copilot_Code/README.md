@@ -120,8 +120,6 @@ def compute_rubric_score(test_results: dict, rubric: dict) -> dict:
 
 ---
 
-## Instructions for Adding Screenshots
-
 ## Copilot Screenshots in Action
 
 Here is a screenshot showing GitHub Copilot providing inline suggestions while writing the file upload handler module:

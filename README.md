@@ -39,7 +39,11 @@ SE_individual_Sharat_Doddihal_PES1UG24CS430/
 │   ├── Architecture_Document.md
 │   └── README.md
 │
-├── 📁 3-Project_Creation_Screenshots/ ← GitHub & Jira Screenshots (to be added)
+├── 📁 3-Project_Creation_Screenshots/ ← Jira sprint screenshots and report
+│   ├── jira_backlog.png
+│   ├── jira_burndown_chart_1.png
+│   ├── jira_burndown_chart_2.png
+│   ├── Lab2_Agile_Sprint_Report.md
 │   └── README.md
 │
 ├── 📁 4-SRS_and_Work_Breakdown/       ← SRS & WBS
@@ -86,7 +90,7 @@ SE_individual_Sharat_Doddihal_PES1UG24CS430/
 
 ### 3️⃣ Project Creation Screenshots → [`3-Project_Creation_Screenshots/`](./3-Project_Creation_Screenshots/)
 
-> 📸 **To be added by student** — Screenshots of project setup in GitHub and Jira tool.
+The Jira backlog and burndown chart captures are included with the [Lab 2 sprint report](./3-Project_Creation_Screenshots/Lab2_Agile_Sprint_Report.md) and [screenshot index](./3-Project_Creation_Screenshots/README.md).
 
 ---
 
@@ -103,7 +107,7 @@ SE_individual_Sharat_Doddihal_PES1UG24CS430/
 
 | Document | Description |
 |---|---|
-| [README.md](./5-GitHub_Copilot_Code/README.md) | Copilot usage summary, sample generated code (file upload, JWT auth, rubric scorer), and instructions for adding screenshots |
+| [README.md](./5-GitHub_Copilot_Code/README.md) | Copilot usage summary, sample generated code (file upload, JWT auth, rubric scorer), and a Copilot usage screenshot |
 
 **Repository Link:** [venkamita/SE_individual_Sharat_Doddihal_PES1UG24CS430](https://github.com/venkamita/SE_individual_Sharat_Doddihal_PES1UG24CS430)
 
